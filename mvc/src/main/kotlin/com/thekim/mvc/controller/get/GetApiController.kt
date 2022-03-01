@@ -1,6 +1,6 @@
 package com.thekim.mvc.controller.get
 
-import com.thekim.mvc.controller.get.model.http.UserRequest
+import com.thekim.mvc.model.http.UserRequest
 import org.springframework.web.bind.annotation.*
 
 @RestController    // REST API Controller 동작

@@ -1,6 +1,5 @@
-package com.thekim.mvc.controller.get.model.http
+package com.thekim.mvc.model.http
 
-import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.databind.PropertyNamingStrategy
 import com.fasterxml.jackson.databind.annotation.JsonNaming
 
@@ -13,5 +12,6 @@ data class UserRequest(
 
     //@JsonProperty("phone_number")
     var phoneNumber: String? = null
-) {
-}
+)
+
+
