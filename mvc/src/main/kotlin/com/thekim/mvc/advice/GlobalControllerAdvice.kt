@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler
 import org.springframework.web.bind.annotation.RestControllerAdvice
 
 // 전역 rest api 예외처리
-@RestControllerAdvice( /* basePackageClasses = [PutApiController::class] */)
+//@RestControllerAdvice( /* basePackageClasses = [PutApiController::class] */)
 //@ControllerAdvice
 class GlobalControllerAdvice {
 
