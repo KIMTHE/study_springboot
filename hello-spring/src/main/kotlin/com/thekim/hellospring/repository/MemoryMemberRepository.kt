@@ -1,8 +1,10 @@
 package com.thekim.hellospring.repository
 
 import com.thekim.hellospring.domain.Member
+import org.springframework.stereotype.Repository
 import java.util.*
 
+//@Repository
 class MemoryMemberRepository : MemberRepository {
 
     companion object{

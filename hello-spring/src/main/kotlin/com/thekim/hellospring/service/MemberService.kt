@@ -3,8 +3,19 @@ package com.thekim.hellospring.service
 import com.thekim.hellospring.domain.Member
 import com.thekim.hellospring.repository.MemberRepository
 import com.thekim.hellospring.repository.MemoryMemberRepository
+import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.stereotype.Service
 
-class MemberService(private final val memberRepository: MemberRepository) {
+//@Service
+class MemberService {
+
+    private final val memberRepository: MemberRepository
+
+    //@Autowired //(dependency injection)
+    constructor(memberRepository: MemberRepository) {
+        this.memberRepository = memberRepository
+    }
+
 
     /*
     회원가입
