@@ -1,5 +1,6 @@
 package com.thekim.hellospring.service
 
+import com.thekim.hellospring.aop.TimeTraceAop
 import com.thekim.hellospring.repository.*
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.context.annotation.Bean
@@ -44,4 +45,5 @@ class SpringConfig {
 ////        return JdbcTemplateMemberRepository(dataSource) //Jdbc template 이용
 ////        return JpaMemberRepository(em) //jpa 사용
 //    }
+
 }
